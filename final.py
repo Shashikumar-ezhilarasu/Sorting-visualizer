@@ -204,7 +204,7 @@ class SortingVisualizer:
         self.display_array(highlight=list(range(len(self.bar_data))))
         self.info_label.config(text="Quick Sort completed!")
 
-
+#main
 if __name__ == "__main__":
     root = tk.Tk()
     app = SortingVisualizer(root)
